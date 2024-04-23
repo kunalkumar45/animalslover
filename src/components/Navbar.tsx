@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="bg-black">
+      <nav className="bg-black sticky top-0">
         <div className="h-full mx-auto px-4 sm:px-8">
           <div className="flex flex-wrap items-center justify-between h-16">
             <div className="flex items-center text-white text-xl sm:text-2xl lg:text-3xl cursor-pointer">
